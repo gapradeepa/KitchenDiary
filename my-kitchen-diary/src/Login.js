@@ -2,9 +2,6 @@ import React, { useState } from "react";
 import { Container, Form, Button, input } from "react-bootstrap";
 
 const LoginPage = () => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-
   const handleSubmit = (event) => {
     event.preventDefault();
     // Handle login logic here
