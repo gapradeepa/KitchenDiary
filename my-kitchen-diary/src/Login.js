@@ -1,11 +1,10 @@
-import React, { useState } from "react";
-import { Container, Form, Button, input } from "react-bootstrap";
+import React from "react";
+import { Container, Form } from "react-bootstrap";
 
 const LoginPage = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     // Handle login logic here
-    console.log(`Email: ${email}, Password: ${password}`);
   };
 
   return (

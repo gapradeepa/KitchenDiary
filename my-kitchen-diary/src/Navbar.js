@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import { Container, Form, Button, Navbar } from "react-bootstrap";
+import React from "react";
+import { Container } from "react-bootstrap";
 
 const Navbarmenu = () => {
   return (
     <Container>
-      <nav
+      {/* <nav
         class="navbar navbar-expand-lg bg-primary fixed-top"
         data-bs-theme="dark"
       >
@@ -76,7 +76,7 @@ const Navbarmenu = () => {
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> */}
     </Container>
   );
 };
