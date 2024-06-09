@@ -1,0 +1,5 @@
+{
+  "appService.zipIgnorePattern": ["node_modules{,/**}", ".vscode{,/**}"],
+  "appService.defaultWebAppToDeploy": "/subscriptions/47024483-0f99-48cc-943e-5b1c9ef163e9/resourceGroups/Kitchendiary/providers/Microsoft.Web/sites/mykitchendiary",
+  "appService.deploySubpath": "."
+}
